@@ -27,7 +27,7 @@ General
 
 -   Many organization start with a Hybrid of Containers run on VMs
 
--   Containers Shipping Metaphor - At CBP we have a diversity of tech
+-   Containers Shipping Metaphor - At X we have a diversity of tech
     stack becauise we use right tool for the right job, containers would
     help support the management and deployment
 
@@ -226,10 +226,9 @@ Continuous Integration & Continuous Delivery
     do something like: 
 
     -   Bring a up a new container with the updated image (it’s best to
-        > avoid trying to update images in place). 
+        avoid trying to update images in place). 
 
-    -   Point the load balancer at the new image, for some or all of the
-        > traffic. 
+    -   Point the load balancer at the new image, for some or all of the traffic. 
 
     -   Test the new container is working.
 
